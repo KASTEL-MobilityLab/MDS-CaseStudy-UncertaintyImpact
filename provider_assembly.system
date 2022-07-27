@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_R-kFYA3HEe2B174O52ER9A" entityName="Provider">
+  <assemblyContexts__ComposedStructure id="_EwZeIA3LEe2B174O52ER9A" entityName="Assembly_Provider">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="general-repository.repository#_qorZQA3IEe2B174O52ER9A"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0KJLoA3MEe2B174O52ER9A" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_KTUUIA3LEe2B174O52ER9A" assemblyContext_ProvidedDelegationConnector="_EwZeIA3LEe2B174O52ER9A">
+    <innerProvidedRole_ProvidedDelegationConnector href="general-repository.repository#_wZoEMA3IEe2B174O52ER9A"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_1yRAAA3MEe2B174O52ER9A" entityName="newRequiredDelegationConnector" outerRequiredRole_RequiredDelegationConnector="_O7gAMA3LEe2B174O52ER9A" assemblyContext_RequiredDelegationConnector="_EwZeIA3LEe2B174O52ER9A">
+    <innerRequiredRole_RequiredDelegationConnector href="general-repository.repository#_00FA0A3JEe2B174O52ER9A"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_KTUUIA3LEe2B174O52ER9A" entityName="IProvider">
+    <providedInterface__OperationProvidedRole href="general-repository.repository#_nZPeQA3HEe2B174O52ER9A"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_O7gAMA3LEe2B174O52ER9A" entityName="IAgency">
+    <requiredInterface__OperationRequiredRole href="general-repository.repository#_uPyfUA3HEe2B174O52ER9A"/>
+  </requiredRoles_InterfaceRequiringEntity>
+</system:System>

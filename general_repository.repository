@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_Zu1jwA3HEe2B174O52ER9A" entityName="New Repository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_qorZQA3IEe2B174O52ER9A" entityName="Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_wZoEMA3IEe2B174O52ER9A" entityName="Provider-pro-IProvider" providedInterface__OperationProvidedRole="_nZPeQA3HEe2B174O52ER9A"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_00FA0A3JEe2B174O52ER9A" entityName="Provider-req-IAgency" requiredInterface__OperationRequiredRole="_uPyfUA3HEe2B174O52ER9A"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_xwAoUA3IEe2B174O52ER9A" entityName="Agency">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yzEn0A3IEe2B174O52ER9A" entityName="Agency-pro-IAgency" providedInterface__OperationProvidedRole="_uPyfUA3HEe2B174O52ER9A"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_p3KAQA3JEe2B174O52ER9A" entityName="Agency-req-IProvider" requiredInterface__OperationRequiredRole="_nZPeQA3HEe2B174O52ER9A"/>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_nZPeQA3HEe2B174O52ER9A" entityName="IProvider"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_uPyfUA3HEe2B174O52ER9A" entityName="IAgency"/>
+</repository:Repository>
