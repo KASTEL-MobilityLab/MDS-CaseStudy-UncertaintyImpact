@@ -1,13 +1,90 @@
 <?xml version="1.0" encoding="ASCII"?>
 <repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_Zu1jwA3HEe2B174O52ER9A" entityName="New Repository">
   <components__Repository xsi:type="repository:BasicComponent" id="_qorZQA3IEe2B174O52ER9A" entityName="Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_wZoEMA3IEe2B174O52ER9A" entityName="Provider-pro-IProvider" providedInterface__OperationProvidedRole="_nZPeQA3HEe2B174O52ER9A"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_00FA0A3JEe2B174O52ER9A" entityName="Provider-req-IAgency" requiredInterface__OperationRequiredRole="_uPyfUA3HEe2B174O52ER9A"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_wZoEMA3IEe2B174O52ER9A" entityName="Provider-pro-IProvider" providedInterface__OperationProvidedRole="_nZPeQA3HEe2B174O52ER9A" />
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_6A3ygBG-Ee2vX6K_apHu9g" describedService__SEFF="_ogQbcBG-Ee2vX6K_apHu9g">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_6idcoBG-Ee2vX6K_apHu9g" successor_AbstractAction="_6idcoRG-Ee2vX6K_apHu9g" />
+      <steps_Behaviour xsi:type="seff:StopAction" id="_6idcoRG-Ee2vX6K_apHu9g" predecessor_AbstractAction="_6idcoBG-Ee2vX6K_apHu9g" />
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7DDBMBG-Ee2vX6K_apHu9g" describedService__SEFF="_rASvQBG-Ee2vX6K_apHu9g">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7_DWcBG-Ee2vX6K_apHu9g" successor_AbstractAction="_7_D9gBG-Ee2vX6K_apHu9g" />
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7_D9gBG-Ee2vX6K_apHu9g" predecessor_AbstractAction="_7_DWcBG-Ee2vX6K_apHu9g" />
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_8d1kMBG-Ee2vX6K_apHu9g" describedService__SEFF="_sT2o4BG-Ee2vX6K_apHu9g">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_81z_UBG-Ee2vX6K_apHu9g" successor_AbstractAction="_810mYBG-Ee2vX6K_apHu9g" />
+      <steps_Behaviour xsi:type="seff:StopAction" id="_810mYBG-Ee2vX6K_apHu9g" predecessor_AbstractAction="_81z_UBG-Ee2vX6K_apHu9g" />
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_9-9YsBG-Ee2vX6K_apHu9g" describedService__SEFF="_uHmecBG-Ee2vX6K_apHu9g">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_-r-PsBG-Ee2vX6K_apHu9g" successor_AbstractAction="_-r-2wBG-Ee2vX6K_apHu9g" />
+      <steps_Behaviour xsi:type="seff:StopAction" id="_-r-2wBG-Ee2vX6K_apHu9g" predecessor_AbstractAction="_-r-PsBG-Ee2vX6K_apHu9g" />
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__IEV0BG-Ee2vX6K_apHu9g" describedService__SEFF="_x_gkIBG-Ee2vX6K_apHu9g">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_Ae3JoBG_Ee2vX6K_apHu9g" successor_AbstractAction="_Ae3JoRG_Ee2vX6K_apHu9g" />
+      <steps_Behaviour xsi:type="seff:StopAction" id="_Ae3JoRG_Ee2vX6K_apHu9g" predecessor_AbstractAction="_Ae3JoBG_Ee2vX6K_apHu9g" />
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_xwAoUA3IEe2B174O52ER9A" entityName="Agency">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yzEn0A3IEe2B174O52ER9A" entityName="Agency-pro-IAgency" providedInterface__OperationProvidedRole="_uPyfUA3HEe2B174O52ER9A"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_p3KAQA3JEe2B174O52ER9A" entityName="Agency-req-IProvider" requiredInterface__OperationRequiredRole="_nZPeQA3HEe2B174O52ER9A"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yzEn0A3IEe2B174O52ER9A" entityName="Agency-pro-IAgency" providedInterface__OperationProvidedRole="_uPyfUA3HEe2B174O52ER9A" />
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_MifQYBG7Ee2rcOgHg2_o9Q" describedService__SEFF="_DKI2YBG6Ee2rcOgHg2_o9Q">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_N6wD0BG7Ee2rcOgHg2_o9Q" successor_AbstractAction="_N6wq4BG7Ee2rcOgHg2_o9Q" />
+      <steps_Behaviour xsi:type="seff:StopAction" id="_N6wq4BG7Ee2rcOgHg2_o9Q" predecessor_AbstractAction="_N6wD0BG7Ee2rcOgHg2_o9Q" />
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_POb5QBG7Ee2rcOgHg2_o9Q" describedService__SEFF="_ZBlq0BG6Ee2rcOgHg2_o9Q">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_PqDeQBG7Ee2rcOgHg2_o9Q" successor_AbstractAction="_PqDeQRG7Ee2rcOgHg2_o9Q" />
+      <steps_Behaviour xsi:type="seff:StopAction" id="_PqDeQRG7Ee2rcOgHg2_o9Q" predecessor_AbstractAction="_PqDeQBG7Ee2rcOgHg2_o9Q" />
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_nZPeQA3HEe2B174O52ER9A" entityName="IProvider"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_uPyfUA3HEe2B174O52ER9A" entityName="IAgency"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_O8OXkBJuEe2-X741PPaAHA" entityName="ProviderClient">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_UbjuEBJuEe2-X741PPaAHA" entityName="ProviderClient.IAgency.OperationRequiredRole1" requiredInterface__OperationRequiredRole="_uPyfUA3HEe2B174O52ER9A" />
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_nZPeQA3HEe2B174O52ER9A" entityName="IProvider">
+    <signatures__OperationInterface id="_ogQbcBG-Ee2vX6K_apHu9g" entityName="getTrips" />
+    <signatures__OperationInterface id="_rASvQBG-Ee2vX6K_apHu9g" entityName="getStatusChanges" />
+    <signatures__OperationInterface id="_sT2o4BG-Ee2vX6K_apHu9g" entityName="getReports" />
+    <signatures__OperationInterface id="_uHmecBG-Ee2vX6K_apHu9g" entityName="statusChangesEvent" />
+    <signatures__OperationInterface id="_x_gkIBG-Ee2vX6K_apHu9g" entityName="getVehicles" />
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_uPyfUA3HEe2B174O52ER9A" entityName="IAgency">
+    <signatures__OperationInterface id="_DKI2YBG6Ee2rcOgHg2_o9Q" entityName="getVehicles" returnType__OperationSignature="_4ZW0YBG5Ee2rcOgHg2_o9Q">
+      <parameters__OperationSignature dataType__Parameter="_JecX8BG4Ee2jDOWQ5Nq1yw" parameterName="device_id" />
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_ZBlq0BG6Ee2rcOgHg2_o9Q" entityName="registerVehicles" />
+    <signatures__OperationInterface id="_pD9FwBG7Ee2rcOgHg2_o9Q" entityName="updateVehicle">
+      <parameters__OperationSignature dataType__Parameter="_JecX8BG4Ee2jDOWQ5Nq1yw" parameterName="device_id" />
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_3ocp8BG7Ee2rcOgHg2_o9Q" entityName="vehicleEvent">
+      <parameters__OperationSignature dataType__Parameter="_JecX8BG4Ee2jDOWQ5Nq1yw" parameterName="device_id" />
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_IAyKUBG8Ee2rcOgHg2_o9Q" entityName="addVehicleTelemetry" />
+    <signatures__OperationInterface id="_ck-AEBG8Ee2rcOgHg2_o9Q" entityName="registerStops" />
+  </interfaces__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_H_IhUBG4Ee2jDOWQ5Nq1yw" entityName="Enum" />
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_JecX8BG4Ee2jDOWQ5Nq1yw" entityName="UUID" />
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_KoYbgBG4Ee2jDOWQ5Nq1yw" entityName="Enum[]" innerType_CollectionDataType="_H_IhUBG4Ee2jDOWQ5Nq1yw" />
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_M6Ta0BG4Ee2jDOWQ5Nq1yw" entityName="Vehicle">
+    <innerDeclaration_CompositeDataType entityName="device_id" datatype_InnerDeclaration="_JecX8BG4Ee2jDOWQ5Nq1yw" />
+    <innerDeclaration_CompositeDataType entityName="provider_id" datatype_InnerDeclaration="_JecX8BG4Ee2jDOWQ5Nq1yw" />
+    <innerDeclaration_CompositeDataType entityName="vehicle_id">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1" />
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="propulsion_types" datatype_InnerDeclaration="_KoYbgBG4Ee2jDOWQ5Nq1yw" />
+    <innerDeclaration_CompositeDataType entityName="year">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0" />
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="mfgr">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1" />
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="model">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1" />
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="state" datatype_InnerDeclaration="_H_IhUBG4Ee2jDOWQ5Nq1yw" />
+    <innerDeclaration_CompositeDataType entityName="prev_events" datatype_InnerDeclaration="_KoYbgBG4Ee2jDOWQ5Nq1yw" />
+    <innerDeclaration_CompositeDataType entityName="updated" datatype_InnerDeclaration="_wdkCgBG5Ee2rcOgHg2_o9Q" />
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_wdkCgBG5Ee2rcOgHg2_o9Q" entityName="timestamp">
+    <innerDeclaration_CompositeDataType entityName="stamp">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.6" />
+    </innerDeclaration_CompositeDataType>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_4ZW0YBG5Ee2rcOgHg2_o9Q" entityName="Vehicles" innerType_CollectionDataType="_M6Ta0BG4Ee2jDOWQ5Nq1yw" />
 </repository:Repository>
