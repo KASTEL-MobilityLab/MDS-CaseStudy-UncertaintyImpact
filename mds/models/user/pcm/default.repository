@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" id="_dqFLECHbEd6tG9VclJz3cw" entityName="defaultRepository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_cHvDEBeyEe2_NIc9ghIYJQ" entityName="Agency">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_osK0ABeyEe2_NIc9ghIYJQ" entityName="Agency-pro-IAgency" providedInterface__OperationProvidedRole="_YkMD0BeyEe2_NIc9ghIYJQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_JfVQoBfKEe2_NIc9ghIYJQ" entityName="Agency-pro-IPublicClient" providedInterface__OperationProvidedRole="_fPveYBfJEe2_NIc9ghIYJQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_w1kSIBe0Ee2_NIc9ghIYJQ" describedService__SEFF="_NI8TEBezEe2_NIc9ghIYJQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_yi1sQBe0Ee2_NIc9ghIYJQ" successor_AbstractAction="_yi1sQRe0Ee2_NIc9ghIYJQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_yi1sQRe0Ee2_NIc9ghIYJQ" predecessor_AbstractAction="_yi1sQBe0Ee2_NIc9ghIYJQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_zvMxsBe0Ee2_NIc9ghIYJQ" describedService__SEFF="_Tq0EoBezEe2_NIc9ghIYJQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_0L7J8Be0Ee2_NIc9ghIYJQ" successor_AbstractAction="_0L7xABe0Ee2_NIc9ghIYJQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_0L7xABe0Ee2_NIc9ghIYJQ" predecessor_AbstractAction="_0L7J8Be0Ee2_NIc9ghIYJQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IhGJ8BfOEe2_NIc9ghIYJQ" describedService__SEFF="_Fl15wBfOEe2_NIc9ghIYJQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_JXUAQBfOEe2_NIc9ghIYJQ" successor_AbstractAction="_JXUnUBfOEe2_NIc9ghIYJQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_JXUnUBfOEe2_NIc9ghIYJQ" predecessor_AbstractAction="_JXUAQBfOEe2_NIc9ghIYJQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_dmHsoBeyEe2_NIc9ghIYJQ" entityName="Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_mzVDEBeyEe2_NIc9ghIYJQ" entityName="Provider-pro-IProvider" providedInterface__OperationProvidedRole="_aObYEBeyEe2_NIc9ghIYJQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_invisBfOEe2_NIc9ghIYJQ" entityName="Provider-pro-IMobileUser" providedInterface__OperationProvidedRole="_avhpQBfOEe2_NIc9ghIYJQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_3nBHQBf1Ee22hrP83ESheA" entityName="Provider-req-IProviderDB" requiredInterface__OperationRequiredRole="_vj8osBf1Ee22hrP83ESheA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_07zHsBe0Ee2_NIc9ghIYJQ" describedService__SEFF="_tNGWoBe0Ee2_NIc9ghIYJQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_18AAcBe0Ee2_NIc9ghIYJQ" successor_AbstractAction="_18AAcRe0Ee2_NIc9ghIYJQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_18AAcRe0Ee2_NIc9ghIYJQ" predecessor_AbstractAction="_18AAcBe0Ee2_NIc9ghIYJQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_2doG0Be0Ee2_NIc9ghIYJQ" describedService__SEFF="_qKYzkBe0Ee2_NIc9ghIYJQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_3ubnYBe0Ee2_NIc9ghIYJQ" successor_AbstractAction="_3ubnYRe0Ee2_NIc9ghIYJQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_3ubnYRe0Ee2_NIc9ghIYJQ" predecessor_AbstractAction="_3ubnYBe0Ee2_NIc9ghIYJQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_ioP5ABfOEe2_NIc9ghIYJQ" describedService__SEFF="_dNrtwBfOEe2_NIc9ghIYJQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_ioP5ARfOEe2_NIc9ghIYJQ" successor_AbstractAction="_ioP5AhfOEe2_NIc9ghIYJQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_ioP5AhfOEe2_NIc9ghIYJQ" predecessor_AbstractAction="_ioP5ARfOEe2_NIc9ghIYJQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_6z1kABeyEe2_NIc9ghIYJQ" entityName="ProviderClient">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_9HdMcBeyEe2_NIc9ghIYJQ" entityName="ProviderClient-req-IAgency" requiredInterface__OperationRequiredRole="_YkMD0BeyEe2_NIc9ghIYJQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_zHgZkBf2Ee22hrP83ESheA" entityName="ProviderClient-req-IProviderDB" requiredInterface__OperationRequiredRole="_vj8osBf1Ee22hrP83ESheA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_xz9ngBfJEe2_NIc9ghIYJQ" entityName="AgencyClient">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_3xANsBfJEe2_NIc9ghIYJQ" entityName="AgencyClient.IProvider.OperationRequiredRole1" requiredInterface__OperationRequiredRole="_aObYEBeyEe2_NIc9ghIYJQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_trKiIBf1Ee22hrP83ESheA" entityName="ProviderDB">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_y0NfkBf1Ee22hrP83ESheA" entityName="ProviderDB-pro-IProviderDB" providedInterface__OperationProvidedRole="_vj8osBf1Ee22hrP83ESheA"/>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YkMD0BeyEe2_NIc9ghIYJQ" entityName="IAgency">
+    <signatures__OperationInterface id="_NI8TEBezEe2_NIc9ghIYJQ" entityName="getVehicles"/>
+    <signatures__OperationInterface id="_PPXNABezEe2_NIc9ghIYJQ" entityName="registerVehicles"/>
+    <signatures__OperationInterface id="_Qh4k0BezEe2_NIc9ghIYJQ" entityName="updateVehicle"/>
+    <signatures__OperationInterface id="_RlsLMBezEe2_NIc9ghIYJQ" entityName="vehicleEvent"/>
+    <signatures__OperationInterface id="_Sge_gBezEe2_NIc9ghIYJQ" entityName="addVehicleTelemetry"/>
+    <signatures__OperationInterface id="_Tq0EoBezEe2_NIc9ghIYJQ" entityName="registerStops"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_aObYEBeyEe2_NIc9ghIYJQ" entityName="IProvider">
+    <signatures__OperationInterface id="_oAOCEBe0Ee2_NIc9ghIYJQ" entityName="getTrips"/>
+    <signatures__OperationInterface id="_o4DpABe0Ee2_NIc9ghIYJQ" entityName="getStatusChanges"/>
+    <signatures__OperationInterface id="_qKYzkBe0Ee2_NIc9ghIYJQ" entityName="getReports"/>
+    <signatures__OperationInterface id="_rpt4UBe0Ee2_NIc9ghIYJQ" entityName="statusChangesEvent"/>
+    <signatures__OperationInterface id="_tNGWoBe0Ee2_NIc9ghIYJQ" entityName="getVehicles"/>
+    <signatures__OperationInterface id="_Ppsr4BfwEe22hrP83ESheA" entityName="method6"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_fPveYBfJEe2_NIc9ghIYJQ" entityName="IPublicClient">
+    <signatures__OperationInterface id="_Fl15wBfOEe2_NIc9ghIYJQ" entityName="showMapOverview"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_avhpQBfOEe2_NIc9ghIYJQ" entityName="IMobileUser">
+    <signatures__OperationInterface id="_dNrtwBfOEe2_NIc9ghIYJQ" entityName="registerUser"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_vj8osBf1Ee22hrP83ESheA" entityName="IProviderDB"/>
+</repository:Repository>

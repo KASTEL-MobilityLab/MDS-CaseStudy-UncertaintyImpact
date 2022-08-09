@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_GLa98BfMEe2_NIc9ghIYJQ" entityName="New Allocation">
+  <targetResourceEnvironment_Allocation href="default.resourceenvironment#/"/>
+  <system_Allocation href="default.system#_84D0kCHcEd6lJo4DCALHMw"/>
+  <allocationContexts_Allocation id="_Tn3U8BfMEe2_NIc9ghIYJQ" entityName="Agency">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_RszYQA3NEe2B174O52ER9A"/>
+    <assemblyContext_AllocationContext href="default.system#_Wpb6cBfKEe2_NIc9ghIYJQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_UJIO8BfMEe2_NIc9ghIYJQ" entityName="Provider">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_PY9tYA3NEe2B174O52ER9A"/>
+    <assemblyContext_AllocationContext href="default.system#_i-Ig4Be3Ee2_NIc9ghIYJQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_vazOYBfiEe22hrP83ESheA" entityName="ProviderClient">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_PY9tYA3NEe2B174O52ER9A"/>
+    <assemblyContext_AllocationContext href="default.system#_uSGGcBfNEe2_NIc9ghIYJQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_toDcYBf4Ee22hrP83ESheA" entityName="ProviderDB">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_PY9tYA3NEe2B174O52ER9A"/>
+    <assemblyContext_AllocationContext href="default.system#_BqVw4Bf3Ee22hrP83ESheA"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

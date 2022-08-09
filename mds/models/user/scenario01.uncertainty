@@ -1,2 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<uncertainty:UncertaintyContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:uncertainty="http://www.example.org/uncertainty"/>
+<?xml version="1.0" encoding="ASCII"?>
+<uncertainty:UncertaintyContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" xmlns:uncertainty="http://www.example.org/uncertainty">
+  <uncertainties id="_S5H4QBfPEe2_NIc9ghIYJQ" name="Network Security">
+    <assignedElement>
+      <referencedElement xsi:type="resourceenvironment:ResourceContainer" href="pcm/default.resourceenvironment#_RszYQA3NEe2B174O52ER9A"/>
+    </assignedElement>
+    <uncertaintyType href="../../../../org.palladiosimulator.uncertainty.impact/src/main/resources/models/expert/sample.uncertaintytype#_K6ybcDvjEeyKcZ3NE6_IOQ"/>
+  </uncertainties>
+</uncertainty:UncertaintyContainer>
