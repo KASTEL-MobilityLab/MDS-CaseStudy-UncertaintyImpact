@@ -3,10 +3,6 @@
   <components__Repository xsi:type="repository:BasicComponent" id="_cHvDEBeyEe2_NIc9ghIYJQ" entityName="Agency">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_osK0ABeyEe2_NIc9ghIYJQ" entityName="Agency-pro-IAgency" providedInterface__OperationProvidedRole="_YkMD0BeyEe2_NIc9ghIYJQ"/>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_JfVQoBfKEe2_NIc9ghIYJQ" entityName="Agency-pro-IPublicClient" providedInterface__OperationProvidedRole="_fPveYBfJEe2_NIc9ghIYJQ"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_w1kSIBe0Ee2_NIc9ghIYJQ" describedService__SEFF="_NI8TEBezEe2_NIc9ghIYJQ">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_yi1sQBe0Ee2_NIc9ghIYJQ" successor_AbstractAction="_yi1sQRe0Ee2_NIc9ghIYJQ"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_yi1sQRe0Ee2_NIc9ghIYJQ" predecessor_AbstractAction="_yi1sQBe0Ee2_NIc9ghIYJQ"/>
-    </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_zvMxsBe0Ee2_NIc9ghIYJQ" describedService__SEFF="_Tq0EoBezEe2_NIc9ghIYJQ">
       <steps_Behaviour xsi:type="seff:StartAction" id="_0L7J8Be0Ee2_NIc9ghIYJQ" successor_AbstractAction="_0L7xABe0Ee2_NIc9ghIYJQ"/>
       <steps_Behaviour xsi:type="seff:StopAction" id="_0L7xABe0Ee2_NIc9ghIYJQ" predecessor_AbstractAction="_0L7J8Be0Ee2_NIc9ghIYJQ"/>
@@ -14,6 +10,14 @@
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IhGJ8BfOEe2_NIc9ghIYJQ" describedService__SEFF="_Fl15wBfOEe2_NIc9ghIYJQ">
       <steps_Behaviour xsi:type="seff:StartAction" id="_JXUAQBfOEe2_NIc9ghIYJQ" successor_AbstractAction="_JXUnUBfOEe2_NIc9ghIYJQ"/>
       <steps_Behaviour xsi:type="seff:StopAction" id="_JXUnUBfOEe2_NIc9ghIYJQ" predecessor_AbstractAction="_JXUAQBfOEe2_NIc9ghIYJQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_QutXQB1CEe2VV5jU6VdTTg" describedService__SEFF="_Sge_gBezEe2_NIc9ghIYJQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_RkFgEB1CEe2VV5jU6VdTTg" successor_AbstractAction="_RkFgER1CEe2VV5jU6VdTTg"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_RkFgER1CEe2VV5jU6VdTTg" predecessor_AbstractAction="_RkFgEB1CEe2VV5jU6VdTTg"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_S4VWMB1CEe2VV5jU6VdTTg" describedService__SEFF="_NI8TEBezEe2_NIc9ghIYJQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_Tl0HQB1CEe2VV5jU6VdTTg" successor_AbstractAction="_Tl0HQR1CEe2VV5jU6VdTTg"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_Tl0HQR1CEe2VV5jU6VdTTg" predecessor_AbstractAction="_Tl0HQB1CEe2VV5jU6VdTTg"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_dmHsoBeyEe2_NIc9ghIYJQ" entityName="Provider">

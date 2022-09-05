@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_84D0kCHcEd6lJo4DCALHMw" entityName="MDS">
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_84D0kCHcEd6lJo4DCALHMw" entityName="Management System for Public Mobility">
   <assemblyContexts__ComposedStructure id="_i-Ig4Be3Ee2_NIc9ghIYJQ" entityName="Provider">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_dmHsoBeyEe2_NIc9ghIYJQ"/>
   </assemblyContexts__ComposedStructure>
@@ -12,15 +12,6 @@
   <assemblyContexts__ComposedStructure id="_BqVw4Bf3Ee22hrP83ESheA" entityName="ProviderDB">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_trKiIBf1Ee22hrP83ESheA"/>
   </assemblyContexts__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_b6_ToBfKEe2_NIc9ghIYJQ" entityName="Public-to-Agency" outerProvidedRole_ProvidedDelegationConnector="_SbX-kBfKEe2_NIc9ghIYJQ" assemblyContext_ProvidedDelegationConnector="_Wpb6cBfKEe2_NIc9ghIYJQ">
-    <innerProvidedRole_ProvidedDelegationConnector href="default.repository#_JfVQoBfKEe2_NIc9ghIYJQ"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_sIW6IBfKEe2_NIc9ghIYJQ" entityName="newProvidedDelegationConnector" assemblyContext_ProvidedDelegationConnector="_Wpb6cBfKEe2_NIc9ghIYJQ">
-    <innerProvidedRole_ProvidedDelegationConnector href="default.repository#_osK0ABeyEe2_NIc9ghIYJQ"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_q0glQBfNEe2_NIc9ghIYJQ" entityName="newProvidedDelegationConnector" assemblyContext_ProvidedDelegationConnector="_Wpb6cBfKEe2_NIc9ghIYJQ">
-    <innerProvidedRole_ProvidedDelegationConnector href="default.repository#_osK0ABeyEe2_NIc9ghIYJQ"/>
-  </connectors__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_v1fy4BfNEe2_NIc9ghIYJQ" entityName="ProviderClient-to-Agency" requiringAssemblyContext_AssemblyConnector="_uSGGcBfNEe2_NIc9ghIYJQ" providingAssemblyContext_AssemblyConnector="_Wpb6cBfKEe2_NIc9ghIYJQ">
     <providedRole_AssemblyConnector href="default.repository#_osK0ABeyEe2_NIc9ghIYJQ"/>
     <requiredRole_AssemblyConnector href="default.repository#_9HdMcBeyEe2_NIc9ghIYJQ"/>
@@ -36,10 +27,13 @@
     <providedRole_AssemblyConnector href="default.repository#_y0NfkBf1Ee22hrP83ESheA"/>
     <requiredRole_AssemblyConnector href="default.repository#_3nBHQBf1Ee22hrP83ESheA"/>
   </connectors__ComposedStructure>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_SbX-kBfKEe2_NIc9ghIYJQ" entityName="IPublicClientProvidedRole">
-    <providedInterface__OperationProvidedRole href="default.repository#_fPveYBfJEe2_NIc9ghIYJQ"/>
-  </providedRoles_InterfaceProvidingEntity>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_Wk4RsB1IEe2I0cdFTR08cg" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_YcZ7YB1FEe2VV5jU6VdTTg" assemblyContext_ProvidedDelegationConnector="_Wpb6cBfKEe2_NIc9ghIYJQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="default.repository#_JfVQoBfKEe2_NIc9ghIYJQ"/>
+  </connectors__ComposedStructure>
   <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_pz2kEBfOEe2_NIc9ghIYJQ" entityName="IMobileUserProvidedRole">
     <providedInterface__OperationProvidedRole href="default.repository#_avhpQBfOEe2_NIc9ghIYJQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YcZ7YB1FEe2VV5jU6VdTTg" entityName="IPublicClientProvidedRole">
+    <providedInterface__OperationProvidedRole href="default.repository#_fPveYBfJEe2_NIc9ghIYJQ"/>
   </providedRoles_InterfaceProvidingEntity>
 </system:System>
