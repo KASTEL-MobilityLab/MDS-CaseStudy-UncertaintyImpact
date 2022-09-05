@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ASCII"?>
+<uncertainty:UncertaintyContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" xmlns:uncertainty="http://www.example.org/uncertainty" xmlns:usagemodel="http://palladiosimulator.org/PalladioComponentModel/UsageModel/5.2">
+  <uncertainties id="_qjTcoCxqEe2_nYq7lhYT7Q" name="Assignable to Basic Component Behavior">
+    <assignedElement referencedElement="_zvMxsBe0Ee2_NIc9ghIYJQ"/>
+    <uncertaintyType href="../expert/annotationCompleteness/sample.uncertaintytype#_G-XpMDvjEeyKcZ3NE6_IOQ"/>
+  </uncertainties>
+  <uncertainties id="_xmJNQCxqEe2_nYq7lhYT7Q" name="Assignable to Basic Component Type">
+    <assignedElement>
+      <referencedElement xsi:type="repository:BasicComponent" href="pcm/default.repository#_cHvDEBeyEe2_NIc9ghIYJQ"/>
+    </assignedElement>
+    <uncertaintyType href="../expert/annotationCompleteness/sample.uncertaintytype#_HOiMIDvjEeyKcZ3NE6_IOQ"/>
+  </uncertainties>
+  <uncertainties id="_ByhVQCxrEe2_nYq7lhYT7Q" name="Assignable to Communication Components">
+    <assignedElement>
+      <referencedElement xsi:type="composition:AssemblyConnector" href="pcm/default.system#_v1fy4BfNEe2_NIc9ghIYJQ"/>
+    </assignedElement>
+    <uncertaintyType href="../expert/annotationCompleteness/sample.uncertaintytype#_JkrkIDvjEeyKcZ3NE6_IOQ"/>
+  </uncertainties>
+  <uncertainties id="_EjgPICxrEe2_nYq7lhYT7Q" name="Assignable to Communication Resources">
+    <assignedElement>
+      <referencedElement xsi:type="resourceenvironment:LinkingResource" href="pcm/default.resourceenvironment#_j3dK0A3NEe2B174O52ER9A"/>
+    </assignedElement>
+    <uncertaintyType href="../expert/annotationCompleteness/sample.uncertaintytype#_J3mgIDvjEeyKcZ3NE6_IOQ"/>
+  </uncertainties>
+  <uncertainties id="_IfIXMCxrEe2_nYq7lhYT7Q" name="Assignable to Component Instance">
+    <assignedElement>
+      <referencedElement xsi:type="composition:AssemblyContext" href="pcm/default.system#_i-Ig4Be3Ee2_NIc9ghIYJQ"/>
+    </assignedElement>
+    <uncertaintyType href="../expert/annotationCompleteness/sample.uncertaintytype#_KH1UgDvjEeyKcZ3NE6_IOQ"/>
+  </uncertainties>
+  <uncertainties id="_McXBwCxrEe2_nYq7lhYT7Q" name="Assignable to Component Interface Instance">
+    <assignedElement referencedElement="_i-Ig4Be3Ee2_NIc9ghIYJQ$_mzVDEBeyEe2_NIc9ghIYJQ"/>
+    <uncertaintyType href="../expert/annotationCompleteness/sample.uncertaintytype#_KZVUMDvjEeyKcZ3NE6_IOQ"/>
+  </uncertainties>
+  <uncertainties id="_a1PL0CxrEe2_nYq7lhYT7Q" name="Assignable to  Component Interface Type">
+    <assignedElement>
+      <referencedElement xsi:type="repository:OperationProvidedRole" href="pcm/default.repository#_osK0ABeyEe2_NIc9ghIYJQ"/>
+    </assignedElement>
+    <uncertaintyType href="../expert/annotationCompleteness/sample.uncertaintytype#_KppoIDvjEeyKcZ3NE6_IOQ"/>
+  </uncertainties>
+  <uncertainties id="_uBVNQCxrEe2_nYq7lhYT7Q" name="Assignable to Hardware Resource">
+    <assignedElement>
+      <referencedElement xsi:type="resourceenvironment:ResourceContainer" href="pcm/default.resourceenvironment#_PY9tYA3NEe2B174O52ER9A"/>
+    </assignedElement>
+    <uncertaintyType href="../expert/annotationCompleteness/sample.uncertaintytype#_K6ybcDvjEeyKcZ3NE6_IOQ"/>
+  </uncertainties>
+  <uncertainties id="_DDQu8CxsEe2_nYq7lhYT7Q" name="Assignable to System">
+    <assignedElement>
+      <referencedElement xsi:type="system:System" href="pcm/default.system#_84D0kCHcEd6lJo4DCALHMw"/>
+    </assignedElement>
+    <uncertaintyType href="../expert/annotationCompleteness/sample.uncertaintytype#_LIVvQDvjEeyKcZ3NE6_IOQ"/>
+  </uncertainties>
+  <uncertainties id="_GircICxsEe2_nYq7lhYT7Q" name="Assignable to System Interface">
+    <assignedElement>
+      <referencedElement xsi:type="repository:OperationProvidedRole" href="pcm/default.system#_YcZ7YB1FEe2VV5jU6VdTTg"/>
+    </assignedElement>
+    <uncertaintyType href="../expert/annotationCompleteness/sample.uncertaintytype#_LWF3YDvjEeyKcZ3NE6_IOQ"/>
+  </uncertainties>
+  <uncertainties id="_KLy34CxsEe2_nYq7lhYT7Q" name="Assignable to Usage Behaviour">
+    <assignedElement>
+      <referencedElement xsi:type="usagemodel:EntryLevelSystemCall" href="pcm/default.usagemodel#_8JLkEB1JEe2I0cdFTR08cg"/>
+    </assignedElement>
+    <uncertaintyType href="../expert/annotationCompleteness/sample.uncertaintytype#_MYM0oDvjEeyKcZ3NE6_IOQ"/>
+  </uncertainties>
+  <basicComponentBehaviours id="_zvMxsBe0Ee2_NIc9ghIYJQ" entityName="registerStops - Agency">
+    <resourceDemandingSEFF href="pcm/default.repository#_zvMxsBe0Ee2_NIc9ghIYJQ"/>
+  </basicComponentBehaviours>
+  <componentInterfaceInstances id="_i-Ig4Be3Ee2_NIc9ghIYJQ$_mzVDEBeyEe2_NIc9ghIYJQ" entityName="Provider - Provider-pro-IProvider">
+    <assemblyContext href="pcm/default.system#_i-Ig4Be3Ee2_NIc9ghIYJQ"/>
+    <interface xsi:type="repository:OperationProvidedRole" href="pcm/default.repository#_mzVDEBeyEe2_NIc9ghIYJQ"/>
+  </componentInterfaceInstances>
+</uncertainty:UncertaintyContainer>

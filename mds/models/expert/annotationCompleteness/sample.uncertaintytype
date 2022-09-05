@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uncertaintytype:UncertaintyTypeContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:uncertaintytype="http://www.example.org/uncertaintyType">
+  <uncertaintyTypes id="_G-XpMDvjEeyKcZ3NE6_IOQ" name="Assignable_to_BasicComponentBehaviour" assignableElementType="BASIC_COMPONENT_BEHAVIOUR">
+    <resolvedBy href="sample.add#_fs_LQDWREeyX2v1Sswnu1Q"/>
+    <impactOnElementTypes>SYSTEM_INTERFACE</impactOnElementTypes>
+  </uncertaintyTypes>
+  <uncertaintyTypes id="_HOiMIDvjEeyKcZ3NE6_IOQ" name="Assignable_to_BasicComponentType" informationAvailability="RECOGNIZED_IGNORANCE" assignableElementType="BASIC_COMPONENT_TYPE">
+    <resolvedBy href="sample.add#_UPKRMDvgEey_pcVcOzlgag"/>
+    <impactOnElementTypes>HARDWARE_RESOURCE</impactOnElementTypes>
+    <impactOnElementTypes>SYSTEM_INTERFACE</impactOnElementTypes>
+  </uncertaintyTypes>
+  <uncertaintyTypes id="_JkrkIDvjEeyKcZ3NE6_IOQ" name="Assignable_to_CommunicationComponents" nature="EPISTEMIC" assignableElementType="COMMUNICATION_COMPONENT">
+    <resolvedBy href="sample.add#_fs_LQDWREeyX2v1Sswnu1Q"/>
+    <impactOnElementTypes>HARDWARE_RESOURCE</impactOnElementTypes>
+  </uncertaintyTypes>
+  <uncertaintyTypes id="_J3mgIDvjEeyKcZ3NE6_IOQ" name="Assignable_to_CommunicationResources" severityOfImpact="LOW" assignableElementType="COMMUNICATION_RESOURCE"/>
+  <uncertaintyTypes id="_KH1UgDvjEeyKcZ3NE6_IOQ" name="Assignable_to_ComponentInstance" resolutionTime="DEPLOYMENT_TIME" rootCause="MISSING_INFORMATION" assignableElementType="COMPONENT_INSTANCE"/>
+  <uncertaintyTypes id="_KZVUMDvjEeyKcZ3NE6_IOQ" name="Assignable_to_ComponentInterfaceInstance" severityOfImpact="LOW" assignableElementType="COMPONENT_INTERFACE_INSTANCE"/>
+  <uncertaintyTypes id="_KppoIDvjEeyKcZ3NE6_IOQ" name="Assignable_to_ComponentInterfaceType" impactOnConfidentiality="INDIRECT" assignableElementType="COMPONENT_INTERFACE_TYPE">
+    <resolvedBy href="sample.add#_dEna0DWREeyX2v1Sswnu1Q"/>
+    <impactOnElementTypes>SYSTEM_INTERFACE</impactOnElementTypes>
+  </uncertaintyTypes>
+  <uncertaintyTypes id="_K6ybcDvjEeyKcZ3NE6_IOQ" name="Assignable_to_HardwareResource" assignableElementType="HARDWARE_RESOURCE">
+    <impactOnElementTypes>COMMUNICATION_COMPONENT</impactOnElementTypes>
+    <impactOnElementTypes>COMPONENT_INSTANCE</impactOnElementTypes>
+  </uncertaintyTypes>
+  <uncertaintyTypes id="_LIVvQDvjEeyKcZ3NE6_IOQ" name="Assignable_to_System">
+    <impactOnElementTypes>SYSTEM_INTERFACE</impactOnElementTypes>
+    <impactOnElementTypes>COMMUNICATION_COMPONENT</impactOnElementTypes>
+    <impactOnElementTypes>COMPONENT_INTERFACE_INSTANCE</impactOnElementTypes>
+    <impactOnElementTypes>COMPONENT_INTERFACE_TYPE</impactOnElementTypes>
+  </uncertaintyTypes>
+  <uncertaintyTypes id="_LWF3YDvjEeyKcZ3NE6_IOQ" name="Assignable_to_SystemInterface" assignableElementType="SYSTEM_INTERFACE">
+    <impactOnElementTypes>COMPONENT_INTERFACE_TYPE</impactOnElementTypes>
+  </uncertaintyTypes>
+  <uncertaintyTypes id="_MYM0oDvjEeyKcZ3NE6_IOQ" name="Assignable_to_UsageBehaviour" assignableElementType="USAGE_BEHAVIOUR">
+    <resolvedBy href="sample.add#_fs_LQDWREeyX2v1Sswnu1Q"/>
+    <impactOnElementTypes>COMPONENT_INTERFACE_INSTANCE</impactOnElementTypes>
+  </uncertaintyTypes>
+</uncertaintytype:UncertaintyTypeContainer>
