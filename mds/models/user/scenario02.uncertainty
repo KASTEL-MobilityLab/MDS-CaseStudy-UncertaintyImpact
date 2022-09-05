@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<uncertainty:UncertaintyContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:uncertainty="http://www.example.org/uncertainty">
+  <uncertainties id="_Hb0rkCq0Ee2LJKlApN9icw" name="Uncertain structure of IAgency interface">
+    <assignedElement>
+      <referencedElement xsi:type="repository:OperationProvidedRole" href="pcm/default.repository#_osK0ABeyEe2_NIc9ghIYJQ"/>
+    </assignedElement>
+    <uncertaintyType href="../expert/cwa/cwa.uncertaintytype#_3THtwGpEEeyp9od8Nz5fnw"/>
+  </uncertainties>
+  <uncertainties id="_ayY3oCq0Ee2LJKlApN9icw" name="Agency component insecure due to software bugs">
+    <assignedElement>
+      <referencedElement xsi:type="repository:BasicComponent" href="pcm/default.repository#_cHvDEBeyEe2_NIc9ghIYJQ"/>
+    </assignedElement>
+    <uncertaintyType href="../expert/cwa/cwa.uncertaintytype#_o1elMGpUEeyp9od8Nz5fnw"/>
+  </uncertainties>
+</uncertainty:UncertaintyContainer>
