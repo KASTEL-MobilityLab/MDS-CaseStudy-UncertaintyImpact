@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
-<uncertainty:UncertaintyContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" xmlns:uncertainty="http://www.example.org/uncertainty">
-  <uncertainties id="_S5H4QBfPEe2_NIc9ghIYJQ" name="Network Security">
+<uncertainty:UncertaintyContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:uncertainty="http://www.example.org/uncertainty">
+  <uncertainties id="_-pqAsCelEe21k8KBakoDiw" name="What data is persisted on Provider DB">
     <assignedElement>
-      <referencedElement xsi:type="resourceenvironment:ResourceContainer" href="pcm/default.resourceenvironment#_RszYQA3NEe2B174O52ER9A"/>
+      <referencedElement xsi:type="repository:BasicComponent" href="pcm/default.repository#_trKiIBf1Ee22hrP83ESheA"/>
     </assignedElement>
-    <uncertaintyType href="../../../../org.palladiosimulator.uncertainty.impact/src/main/resources/models/expert/sample.uncertaintytype#_K6ybcDvjEeyKcZ3NE6_IOQ"/>
+    <uncertaintyType href="../expert/cwa/cwa.uncertaintytype#_IGazMGpCEeyp9od8Nz5fnw"/>
   </uncertainties>
 </uncertainty:UncertaintyContainer>
