@@ -18,4 +18,8 @@
     <resourceContainer_AllocationContext href="default.resourceenvironment#_PY9tYA3NEe2B174O52ER9A"/>
     <assemblyContext_AllocationContext href="default.system#_BqVw4Bf3Ee22hrP83ESheA"/>
   </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_2k9pkE5JEe2fDbqgNFoZJA" entityName="Allocation">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_RszYQA3NEe2B174O52ER9A"/>
+    <assemblyContext_AllocationContext href="default.system#_Z4Q0kE5JEe2fDbqgNFoZJA"/>
+  </allocationContexts_Allocation>
 </allocation:Allocation>
