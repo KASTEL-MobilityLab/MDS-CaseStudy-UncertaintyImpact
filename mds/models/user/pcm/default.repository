@@ -21,7 +21,6 @@
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_dmHsoBeyEe2_NIc9ghIYJQ" entityName="Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_mzVDEBeyEe2_NIc9ghIYJQ" entityName="Provider-pro-IProvider" providedInterface__OperationProvidedRole="_aObYEBeyEe2_NIc9ghIYJQ"/>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_invisBfOEe2_NIc9ghIYJQ" entityName="Provider-pro-IMobileUser" providedInterface__OperationProvidedRole="_avhpQBfOEe2_NIc9ghIYJQ"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_3nBHQBf1Ee22hrP83ESheA" entityName="Provider-req-IProviderDB" requiredInterface__OperationRequiredRole="_vj8osBf1Ee22hrP83ESheA"/>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_07zHsBe0Ee2_NIc9ghIYJQ" describedService__SEFF="_tNGWoBe0Ee2_NIc9ghIYJQ">
