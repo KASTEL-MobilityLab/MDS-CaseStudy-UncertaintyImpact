@@ -10,9 +10,9 @@
     </assignedElement>
     <uncertaintyType href="../expert/annotationCompleteness/sample.uncertaintytype#_HOiMIDvjEeyKcZ3NE6_IOQ"/>
   </uncertainties>
-  <uncertainties id="_bx3w0E5lEe2fDbqgNFoZJA" name="Assignable to CommunicationComponents (ProviderClient-to-Agency)">
+  <uncertainties id="_6rVS4E8WEe20cpnC0FkKDw" name="Assignable to CommunicationComponents (Agency)">
     <assignedElement>
-      <referencedElement xsi:type="composition:AssemblyConnector" href="pcm/default.system#_v1fy4BfNEe2_NIc9ghIYJQ"/>
+      <referencedElement xsi:type="composition:AssemblyConnector" href="pcm/default.system#_lXVH0E5oEe2fDbqgNFoZJA"/>
     </assignedElement>
     <uncertaintyType href="../expert/annotationCompleteness/sample.uncertaintytype#_JkrkIDvjEeyKcZ3NE6_IOQ"/>
   </uncertainties>
@@ -56,9 +56,9 @@
     </assignedElement>
     <uncertaintyType href="../expert/annotationCompleteness/sample.uncertaintytype#_LWF3YDvjEeyKcZ3NE6_IOQ"/>
   </uncertainties>
-  <uncertainties id="_JJPMUE5mEe2fDbqgNFoZJA" name="Assignable to UsageBehaviour (EntryLevelSystemCall1)">
+  <uncertainties id="_wRpXsE8VEe20cpnC0FkKDw" name="Assignable to UsageBehaviour (EntryLevelSystemCall1)">
     <assignedElement>
-      <referencedElement xsi:type="usagemodel:EntryLevelSystemCall" href="pcm/default.usagemodel#_B5SpQE5lEe2fDbqgNFoZJA"/>
+      <referencedElement xsi:type="usagemodel:EntryLevelSystemCall" href="pcm/default.usagemodel#_8JLkEB1JEe2I0cdFTR08cg"/>
     </assignedElement>
     <uncertaintyType href="../expert/annotationCompleteness/sample.uncertaintytype#_MYM0oDvjEeyKcZ3NE6_IOQ"/>
   </uncertainties>
