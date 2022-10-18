@@ -26,16 +26,12 @@
       <steps_Behaviour xsi:type="seff:StopAction" id="_ioP5AhfOEe2_NIc9ghIYJQ" predecessor_AbstractAction="_ioP5ARfOEe2_NIc9ghIYJQ"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_6z1kABeyEe2_NIc9ghIYJQ" entityName="ProviderClient">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_dJWlIE45Ee2fDbqgNFoZJA" entityName="ProviderClient-pro-IProvider" providedInterface__OperationProvidedRole="_aObYEBeyEe2_NIc9ghIYJQ"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_zHgZkBf2Ee22hrP83ESheA" entityName="ProviderClient-req-IProviderDB" requiredInterface__OperationRequiredRole="_vj8osBf1Ee22hrP83ESheA"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_6z1kABeyEe2_NIc9ghIYJQ" entityName="ProviderServer">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_dJWlIE45Ee2fDbqgNFoZJA" entityName="ProviderServer-pro-IProvider" providedInterface__OperationProvidedRole="_aObYEBeyEe2_NIc9ghIYJQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_zHgZkBf2Ee22hrP83ESheA" entityName="ProviderServer-req-IProviderDB" requiredInterface__OperationRequiredRole="_vj8osBf1Ee22hrP83ESheA"/>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_dJcrwE45Ee2fDbqgNFoZJA" describedService__SEFF="_qKYzkBe0Ee2_NIc9ghIYJQ">
       <steps_Behaviour xsi:type="seff:StartAction" id="_dJcrwU45Ee2fDbqgNFoZJA" successor_AbstractAction="_dJcrwk45Ee2fDbqgNFoZJA"/>
       <steps_Behaviour xsi:type="seff:StopAction" id="_dJcrwk45Ee2fDbqgNFoZJA" predecessor_AbstractAction="_dJcrwU45Ee2fDbqgNFoZJA"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_dKVckE45Ee2fDbqgNFoZJA" describedService__SEFF="_Ppsr4BfwEe22hrP83ESheA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_dKVckU45Ee2fDbqgNFoZJA" successor_AbstractAction="_dKVckk45Ee2fDbqgNFoZJA"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_dKVckk45Ee2fDbqgNFoZJA" predecessor_AbstractAction="_dKVckU45Ee2fDbqgNFoZJA"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_dKcxUE45Ee2fDbqgNFoZJA" describedService__SEFF="_rpt4UBe0Ee2_NIc9ghIYJQ">
       <steps_Behaviour xsi:type="seff:StartAction" id="_dKcxUU45Ee2fDbqgNFoZJA" successor_AbstractAction="_dKcxUk45Ee2fDbqgNFoZJA"/>
@@ -66,7 +62,6 @@
     <signatures__OperationInterface id="_qKYzkBe0Ee2_NIc9ghIYJQ" entityName="getReports"/>
     <signatures__OperationInterface id="_rpt4UBe0Ee2_NIc9ghIYJQ" entityName="statusChangesEvent"/>
     <signatures__OperationInterface id="_tNGWoBe0Ee2_NIc9ghIYJQ" entityName="getVehicles"/>
-    <signatures__OperationInterface id="_Ppsr4BfwEe22hrP83ESheA" entityName="method6"/>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_fPveYBfJEe2_NIc9ghIYJQ" entityName="IPublicClient">
     <signatures__OperationInterface id="_Fl15wBfOEe2_NIc9ghIYJQ" entityName="showSpeedStatistics"/>

@@ -10,7 +10,7 @@
     <resourceContainer_AllocationContext href="default.resourceenvironment#_PY9tYA3NEe2B174O52ER9A"/>
     <assemblyContext_AllocationContext href="default.system#_i-Ig4Be3Ee2_NIc9ghIYJQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_vazOYBfiEe22hrP83ESheA" entityName="ProviderClient">
+  <allocationContexts_Allocation id="_vazOYBfiEe22hrP83ESheA" entityName="ProviderServer">
     <resourceContainer_AllocationContext href="default.resourceenvironment#_PY9tYA3NEe2B174O52ER9A"/>
     <assemblyContext_AllocationContext href="default.system#_uSGGcBfNEe2_NIc9ghIYJQ"/>
   </allocationContexts_Allocation>
