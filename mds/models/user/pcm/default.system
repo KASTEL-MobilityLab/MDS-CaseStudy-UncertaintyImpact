@@ -12,7 +12,7 @@
   <assemblyContexts__ComposedStructure id="_BqVw4Bf3Ee22hrP83ESheA" entityName="ProviderDB">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_trKiIBf1Ee22hrP83ESheA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_oBHNgE5oEe2fDbqgNFoZJA" entityName="Assembly_AgencyDB">
+  <assemblyContexts__ComposedStructure id="_oBHNgE5oEe2fDbqgNFoZJA" entityName="AgencyDB">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_j_K4UE43Ee2fDbqgNFoZJA"/>
   </assemblyContexts__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_v1fy4BfNEe2_NIc9ghIYJQ" entityName="ProviderClient-to-Agency" requiringAssemblyContext_AssemblyConnector="_uSGGcBfNEe2_NIc9ghIYJQ" providingAssemblyContext_AssemblyConnector="_Wpb6cBfKEe2_NIc9ghIYJQ"/>
